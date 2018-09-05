@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: #0025FF;
   color: #fff;
@@ -9,14 +13,47 @@ header {
 
 .logo {
   text-align: center;
-  display: inline-block;
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 100%;
   background: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo img {
   width: 140px;
   margin-top: 55px;
+}
+
+.yearbook {
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.photocard {
+  float: left;
+  width: 25%;
+  margin: auto;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85%;
+  width: 85%;
+}
+
+.person {
+  padding: 20px;
+  margin: 8%;
+  background-color: #FFDFE7;
+  text-align: center;
+  color: #FE3525;
+  font-family: sans-serif;
+  font-size: 1vw;
 }
